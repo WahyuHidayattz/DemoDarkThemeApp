@@ -1,0 +1,29 @@
+<resources>
+    
+    <style name="ThemeLight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        
+        <item name="card_background">@color/cardBackground</item>
+    </style>
+    
+    <style name="ThemeDark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/cardBackgroundDark</item>
+        <item name="colorPrimaryDark">@color/cardBackgroundDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        
+        <item name="android:windowBackground">@color/windowBackgroundDark</item>
+        <item name="android:textColorPrimary">@color/textColorDark</item>
+        <item name="android:textColorSecondary">@color/textColorDark</item>
+
+        <item name="card_background">@color/cardBackgroundDark</item>
+    </style>
+
+</resources>
